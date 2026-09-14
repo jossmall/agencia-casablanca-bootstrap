@@ -1,0 +1,109 @@
+html, body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.logo {
+
+  width: 90px;
+  height: auto;  
+
+}
+
+.jumbotron {
+
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  background: url("./images/image2.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+}
+
+.more {
+
+  width: 20px;
+  cursor: pointer;
+
+}
+
+.more:hover {
+
+  transform: rotate(45deg);
+
+}
+
+.more-text {
+
+  display: none;
+  margin-top: 10px;
+
+}
+
+.more:hover + .more-text {
+
+  display: block;
+
+}
+
+.social {
+
+  width: 40px;
+  height: auto;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+.map {
+
+  width: 200px;
+  height: auto;
+
+}
+
+.saleImg {
+
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+
+}
+
+.saleImg:hover {
+
+  opacity: 50%;
+
+}
+
+.aboutUsImg {
+
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+#carouselExampleIndicators img {
+
+  height: 420px;
+  object-fit: cover;
+
+}
+
+.mapForm {
+
+  width: 100%;
+  max-width: 280px;
+
+}
